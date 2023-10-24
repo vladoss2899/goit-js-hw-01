@@ -1,0 +1,21 @@
+{
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": [
+                "foo.json",
+                "**/.vscode/*.json",
+                "**/tsconfig.json",
+                "**/tsconfig.*.json",
+                "**/AppData/Roaming/Code/User/*.json"
+            ],
+            "options": {
+                "tabWidth": 4,
+                "parser": "json5",
+                "quoteProps": "preserve",
+                "singleQuote": false,
+                "trailingComma": "all"
+            }
+        }
+    ]
+}
