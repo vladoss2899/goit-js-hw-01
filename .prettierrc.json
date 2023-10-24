@@ -1,21 +1,12 @@
 {
-    "tabWidth": 4,
-    "overrides": [
-        {
-            "files": [
-                "foo.json",
-                "**/.vscode/*.json",
-                "**/tsconfig.json",
-                "**/tsconfig.*.json",
-                "**/AppData/Roaming/Code/User/*.json"
-            ],
-            "options": {
-                "tabWidth": 4,
-                "parser": "json5",
-                "quoteProps": "preserve",
-                "singleQuote": false,
-                "trailingComma": "all"
-            }
-        }
-    ]
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
 }
